@@ -1,0 +1,769 @@
+[0.209s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.209s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f24259d68e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f24259d68e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f24259d6e50>)
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.214s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jiannaliu01/ros_fairmot_package'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/__pycache__) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/data) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/__pycache__) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/cfg) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/__pycache__) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/trains) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_FairMOT/src/lib/utils/__pycache__) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/__pycache__) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/data) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/__pycache__) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/cfg) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/datasets/dataset/__pycache__) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/__pycache__) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/__pycache__) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/models/networks/config/__pycache__) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracker/__pycache__) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/tracking_utils/__pycache__) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/trains) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS_FairMOT/src/lib/utils/__pycache__) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_fairmot_package) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_fairmot_package) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_fairmot_package) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_fairmot_package) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_fairmot_package) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_fairmot_package) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_fairmot_package) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_fairmot_package) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_fairmot_package) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_fairmot_package' with type 'ros.ament_python' and name 'ros_fairmot_package'
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ros_fairmot_package' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ros_fairmot_package' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ros_fairmot_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ros_fairmot_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ros_fairmot_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ros_fairmot_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ros_fairmot_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ros_fairmot_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ros_fairmot_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'ros_fairmot_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiannaliu01/ros_fairmot_package/build/ros_fairmot_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package', 'merge_install': False, 'path': '/home/jiannaliu01/ros_fairmot_package/src/ros_fairmot_package', 'symlink_install': False, 'test_result_base': None}
+[0.432s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.434s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jiannaliu01/ros_fairmot_package/src/ros_fairmot_package' with build type 'ament_python'
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_fairmot_package', 'ament_prefix_path')
+[0.438s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/hook/ament_prefix_path.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/hook/ament_prefix_path.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/hook/ament_prefix_path.sh'
+[0.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.807s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jiannaliu01/ros_fairmot_package/src/ros_fairmot_package'
+[0.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.809s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiannaliu01/ros_fairmot_package/src/ros_fairmot_package': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_fairmot_package build --build-base /home/jiannaliu01/ros_fairmot_package/build/ros_fairmot_package/build install --prefix /home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package --record /home/jiannaliu01/ros_fairmot_package/build/ros_fairmot_package/install.log --single-version-externally-managed
+[1.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiannaliu01/ros_fairmot_package/src/ros_fairmot_package' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_fairmot_package build --build-base /home/jiannaliu01/ros_fairmot_package/build/ros_fairmot_package/build install --prefix /home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package --record /home/jiannaliu01/ros_fairmot_package/build/ros_fairmot_package/install.log --single-version-externally-managed
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package' for CMake module files
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package' for CMake config files
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/lib'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/bin'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/lib/pkgconfig/ros_fairmot_package.pc'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages'
+[1.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_fairmot_package', 'pythonpath')
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/hook/pythonpath.ps1'
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/hook/pythonpath.dsv'
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/hook/pythonpath.sh'
+[1.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_fairmot_package)
+[1.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/package.ps1'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/package.dsv'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/package.sh'
+[1.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/package.bash'
+[1.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package/package.zsh'
+[1.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/share/colcon-core/packages/ros_fairmot_package)
+[1.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.334s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.341s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.342s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[1.342s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiannaliu01/ros_fairmot_package/install/local_setup.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiannaliu01/ros_fairmot_package/install/_local_setup_util_ps1.py'
+[1.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiannaliu01/ros_fairmot_package/install/setup.ps1'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiannaliu01/ros_fairmot_package/install/local_setup.sh'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiannaliu01/ros_fairmot_package/install/_local_setup_util_sh.py'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiannaliu01/ros_fairmot_package/install/setup.sh'
+[1.350s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiannaliu01/ros_fairmot_package/install/local_setup.bash'
+[1.351s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiannaliu01/ros_fairmot_package/install/setup.bash'
+[1.353s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiannaliu01/ros_fairmot_package/install/local_setup.zsh'
+[1.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiannaliu01/ros_fairmot_package/install/setup.zsh'

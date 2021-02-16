@@ -1,0 +1,21 @@
+[0.383s] Invoking command in '/home/jiannaliu01/ros_fairmot_package/src/ros_fairmot_package': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_fairmot_package build --build-base /home/jiannaliu01/ros_fairmot_package/build/ros_fairmot_package/build install --prefix /home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package --record /home/jiannaliu01/ros_fairmot_package/build/ros_fairmot_package/install.log --single-version-externally-managed
+[0.659s] running egg_info
+[0.660s] writing ../../build/ros_fairmot_package/ros_fairmot_package.egg-info/PKG-INFO
+[0.660s] writing dependency_links to ../../build/ros_fairmot_package/ros_fairmot_package.egg-info/dependency_links.txt
+[0.660s] writing entry points to ../../build/ros_fairmot_package/ros_fairmot_package.egg-info/entry_points.txt
+[0.660s] writing requirements to ../../build/ros_fairmot_package/ros_fairmot_package.egg-info/requires.txt
+[0.660s] writing top-level names to ../../build/ros_fairmot_package/ros_fairmot_package.egg-info/top_level.txt
+[0.842s] reading manifest file '../../build/ros_fairmot_package/ros_fairmot_package.egg-info/SOURCES.txt'
+[0.843s] writing manifest file '../../build/ros_fairmot_package/ros_fairmot_package.egg-info/SOURCES.txt'
+[0.843s] running build
+[0.843s] running build_py
+[0.844s] running install
+[0.845s] running install_lib
+[0.846s] running install_data
+[0.847s] running install_egg_info
+[0.848s] removing '/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages/ros_fairmot_package-0.0.0-py3.8.egg-info' (and everything under it)
+[0.849s] Copying ../../build/ros_fairmot_package/ros_fairmot_package.egg-info to /home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages/ros_fairmot_package-0.0.0-py3.8.egg-info
+[0.850s] running install_scripts
+[0.866s] Installing fairmot_node script to /home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/lib/ros_fairmot_package
+[0.867s] writing list of installed files to '/home/jiannaliu01/ros_fairmot_package/build/ros_fairmot_package/install.log'
+[0.888s] Invoked command in '/home/jiannaliu01/ros_fairmot_package/src/ros_fairmot_package' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_fairmot_package build --build-base /home/jiannaliu01/ros_fairmot_package/build/ros_fairmot_package/build install --prefix /home/jiannaliu01/ros_fairmot_package/install/ros_fairmot_package --record /home/jiannaliu01/ros_fairmot_package/build/ros_fairmot_package/install.log --single-version-externally-managed
