@@ -125,7 +125,7 @@ class FairMOTNode(Node):
     def listener_callback(self, msg):
         self.ROS_Img = msg
         #print(ROS_Img)
-        #self.get_logger().info('I heard: "%s"' % msg.data)
+        self.get_logger().info('I heard: "%s"' % msg.header)
         demo(opt, msg, self.frame_id)
         self.frame_id = self.frame_id + 1
         #rospy.Timer(rospy.Duration(10000), stop_callback)
