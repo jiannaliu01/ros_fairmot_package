@@ -48,5 +48,5 @@ $ ros2 run ros_fairmot_package fairmot_node
 ​
 ## 5. Play rosbag
 ```angular2
-$ ros2 play bag <path_to_data_dir>/real.bag_0.db3
+$ ros2 bag play <path_to_data_dir>/real.bag_0.db3
 ```
