@@ -1,11 +1,14 @@
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
 import logging
 import os
 import os.path as osp
-from lib import opts
-from tracking_utils.utils import mkdir_if_missing
-from tracking_utils.log import logger
-import datasets.dataset.jde as datasets
-from track import eval_seq_single
+from .opts import opts
+from .tracking_utils import mkdir_if_missing
+from .log import logger
+from .track import eval_seq_single
 
 import rclpy
 from rclpy.node import Node
@@ -136,7 +139,7 @@ class FairMOTNode(Node):
 def main(args=None):
     os.environ['CUDA_VISIBLE_DEVICES'] = '0'
     print("============================HEREEEE1=============================")
-    opt = opts().init()
+    opt = opts.init()
     rclpy.init() 
     fairmot_node = FairMOTNode()
 
