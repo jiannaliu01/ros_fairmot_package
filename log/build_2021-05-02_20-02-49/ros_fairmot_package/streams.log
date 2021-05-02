@@ -1,0 +1,37 @@
+[0.337s] Invoking command in '/root/fairmot_package/ros_fairmot_package': PYTHONPATH=/root/fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_fairmot_package build --build-base /root/fairmot_package/build/ros_fairmot_package/build install --prefix /root/fairmot_package/install/ros_fairmot_package --record /root/fairmot_package/build/ros_fairmot_package/install.log --single-version-externally-managed
+[0.631s] running egg_info
+[0.631s] creating ../build/ros_fairmot_package/ros_fairmot_package.egg-info
+[0.632s] writing ../build/ros_fairmot_package/ros_fairmot_package.egg-info/PKG-INFO
+[0.632s] writing dependency_links to ../build/ros_fairmot_package/ros_fairmot_package.egg-info/dependency_links.txt
+[0.632s] writing entry points to ../build/ros_fairmot_package/ros_fairmot_package.egg-info/entry_points.txt
+[0.632s] writing requirements to ../build/ros_fairmot_package/ros_fairmot_package.egg-info/requires.txt
+[0.633s] writing top-level names to ../build/ros_fairmot_package/ros_fairmot_package.egg-info/top_level.txt
+[0.634s] writing manifest file '../build/ros_fairmot_package/ros_fairmot_package.egg-info/SOURCES.txt'
+[0.697s] reading manifest file '../build/ros_fairmot_package/ros_fairmot_package.egg-info/SOURCES.txt'
+[0.698s] writing manifest file '../build/ros_fairmot_package/ros_fairmot_package.egg-info/SOURCES.txt'
+[0.699s] running build
+[0.699s] running build_py
+[0.699s] creating /root/fairmot_package/build/ros_fairmot_package/build
+[0.700s] creating /root/fairmot_package/build/ros_fairmot_package/build/lib
+[0.700s] creating /root/fairmot_package/build/ros_fairmot_package/build/lib/ros_fairmot_package
+[0.700s] copying ros_fairmot_package/__init__.py -> /root/fairmot_package/build/ros_fairmot_package/build/lib/ros_fairmot_package
+[0.700s] copying ros_fairmot_package/fairmot_node.py -> /root/fairmot_package/build/ros_fairmot_package/build/lib/ros_fairmot_package
+[0.700s] running install
+[0.701s] running install_lib
+[0.703s] creating /root/fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages/ros_fairmot_package
+[0.703s] copying /root/fairmot_package/build/ros_fairmot_package/build/lib/ros_fairmot_package/__init__.py -> /root/fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages/ros_fairmot_package
+[0.703s] copying /root/fairmot_package/build/ros_fairmot_package/build/lib/ros_fairmot_package/fairmot_node.py -> /root/fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages/ros_fairmot_package
+[0.704s] byte-compiling /root/fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages/ros_fairmot_package/__init__.py to __init__.cpython-38.pyc
+[0.705s] byte-compiling /root/fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages/ros_fairmot_package/fairmot_node.py to fairmot_node.cpython-38.pyc
+[0.707s] running install_data
+[0.708s] creating /root/fairmot_package/install/ros_fairmot_package/share/ament_index
+[0.708s] creating /root/fairmot_package/install/ros_fairmot_package/share/ament_index/resource_index
+[0.708s] creating /root/fairmot_package/install/ros_fairmot_package/share/ament_index/resource_index/packages
+[0.708s] copying resource/ros_fairmot_package -> /root/fairmot_package/install/ros_fairmot_package/share/ament_index/resource_index/packages
+[0.708s] copying package.xml -> /root/fairmot_package/install/ros_fairmot_package/share/ros_fairmot_package
+[0.709s] running install_egg_info
+[0.710s] Copying ../build/ros_fairmot_package/ros_fairmot_package.egg-info to /root/fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages/ros_fairmot_package-0.0.0-py3.8.egg-info
+[0.712s] running install_scripts
+[0.738s] Installing fairmot_node script to /root/fairmot_package/install/ros_fairmot_package/lib/ros_fairmot_package
+[0.738s] writing list of installed files to '/root/fairmot_package/build/ros_fairmot_package/install.log'
+[0.763s] Invoked command in '/root/fairmot_package/ros_fairmot_package' returned '0': PYTHONPATH=/root/fairmot_package/install/ros_fairmot_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_fairmot_package build --build-base /root/fairmot_package/build/ros_fairmot_package/build install --prefix /root/fairmot_package/install/ros_fairmot_package --record /root/fairmot_package/build/ros_fairmot_package/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+fairmot_node = ros_fairmot_package.fairmot_node:main
+
